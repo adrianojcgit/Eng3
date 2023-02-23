@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eng3.Application\Eng3.Application.csproj" />
+    <ProjectReference Include="..\Eng3.Domain\Eng3.Domain.csproj" />
+    <ProjectReference Include="..\Eng3.Infra.Data\Eng3.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
